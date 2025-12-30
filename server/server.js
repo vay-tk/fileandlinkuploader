@@ -16,7 +16,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:5173', // Vite dev server
+  origin: 'https://fileandlinkuploader.onrender.com', // Vite dev server
   credentials: true
 }));
 app.use(express.json());
